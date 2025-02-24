@@ -7,7 +7,7 @@ on:
   workflow_call:  # This allows this workflow to be called from another workflow
     inputs:
       runner:
-        required: true
+        required: false
         type: string
       lto_type:
         required: true
